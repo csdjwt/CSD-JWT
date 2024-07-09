@@ -1,0 +1,28 @@
+[package]
+name = "CSD-JWT"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+sha3 = "0.10.8"
+ark-bls12-381 = "0.4.0"
+ark-bn254 = "0.4.0"
+ark-ff = "0.4.2"
+ark-ec = "0.4.2"
+ark-serialize = "0.4.2"
+
+vb_accumulator = "0.25.0"
+futures = "0.3.30"
+multibase = "0.9.1"
+
+sd-jwt-payload = "0.2.1"
+josekit = "0.8.6"
+json-pointer = "0.3.4"
+serde_json = "1.0.118"
+serde = { version = "1.0.203", features = ["derive"] }
+itertools = "0.13.0"
+thiserror = "1.0.61"
+strum = "0.26.3"
+hex = "0.4.3"
+base64 = "0.22.1"
